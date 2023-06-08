@@ -79,7 +79,7 @@ public class Game extends JFrame
 		mainPanel.add(playPanel);
 		mainPanel.add(Box.createVerticalGlue());
 	
-		getContentPane().add(mainPanel).setBackground(Color.lightGray);
+		getContentPane().add(mainPanel);
 		
 		mainPanel.setBackground(Color.PINK);
 		titlePanel.setBackground(Color.PINK);
@@ -88,6 +88,10 @@ public class Game extends JFrame
 		
 		guess.setBackground(Color.BLACK);
 		guess.setForeground(Color.PINK);
+		
+		restart.setBackground(Color.BLACK);
+		restart.setForeground(Color.PINK);
+
 		
 		
 		setExtendedState(JFrame.MAXIMIZED_BOTH);
